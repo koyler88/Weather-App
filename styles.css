@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+}
+
+.searchbar {
+    border-radius: 30px;
+    border: none;
+    height: 70px;
+    flex: 2;
+    box-shadow: 1px 3px 3px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.submit {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    box-shadow: 1px 3px 3px;
+}
+
+.submitIcon {
+    height: 50px
+}
+
+.content {
+    height: 65vh;
+    width: 50%;
+    padding: 5% 10%;
+    margin: 4%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/chalk-background.jpeg);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px;
+    gap: 20px;
+}
+
+.forecastIcon {
+    height: 10em;
+}
+
+.forecast, .temp, .location, .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.forecast {
+    font-size: 20px;
+}
+
+.temp {
+    font-size: 84px;
+}
+
+.location {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.conditions {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+.humidityInfo, .windSpeedInfo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.leftside {
+
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.conditionText {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.windspeed {
+    font-size: 30px;
+}
+
+.percentage {
+    font-size: 26px;
+}
+
+.info {
+    height: 4em;
+}
